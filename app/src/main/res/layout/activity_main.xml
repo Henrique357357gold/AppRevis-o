@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+
+
+
+    >
+
+    <TextView
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textview="2dp"
+        android:text="textNome"/>
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/editEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textview="25dp"
+        android:text="textEndereco"/>
+
+    <EditText
+        android:id="@+id/edtEndereco"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"/>
+"
+
+
+
+    <TextView
+        android:id="@+id/editBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textview="25dp"
+        android:text="textBairro"/>
+
+    <EditText
+        android:id="@+id/edtBairro"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/editCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textview="25dp"
+        android:text="textCep"/>
+
+    <EditText
+        android:id="@+id/edtCep"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:txt="txtCadastrar"/>
+
+
+</LinearLayout>

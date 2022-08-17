@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">appRevisao</string>
+    <string name="txtEome">Nome</string>
+    <string name="txtEndereco">Endereco</string>
+    <string name="txtCep">Cep</string>
+    <string name="txtBairro">Bairro</string>
+
+</resources>
